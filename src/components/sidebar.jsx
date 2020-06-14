@@ -1,5 +1,5 @@
-import React, { Component } from "react"
-import Icon from "./icon"
+import React from "react";
+import Icon from "./icon";
 
 const SideBar = () => {
   return (
@@ -32,7 +32,7 @@ const SideBar = () => {
       <Icon href="#" ariaLabel="resume icon" iconPic="far fa-file" />
       <Icon href="#" ariaLabel="down chevron" iconPic="fas fa-chevron-down" />
     </div>
-  )
-}
+  );
+};
 
-export default SideBar
+export default SideBar;

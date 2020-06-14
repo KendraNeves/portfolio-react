@@ -1,6 +1,6 @@
-import React, { Component } from "react"
+import React from "react";
 
-const ColorBlock = props => {
+const ColorBlock = (props) => {
   return (
     <div
       style={{
@@ -8,7 +8,7 @@ const ColorBlock = props => {
         height: props.height || 600,
       }}
     ></div>
-  )
-}
+  );
+};
 
-export default ColorBlock
+export default ColorBlock;

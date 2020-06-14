@@ -1,6 +1,6 @@
-import React, { Component } from "react"
+import React from "react";
 
-const Icon = props => {
+const Icon = (props) => {
   return (
     <a href={props.href} target="_blank" aria-label={props.ariaLabel}>
       <i
@@ -12,7 +12,7 @@ const Icon = props => {
         }}
       ></i>
     </a>
-  )
-}
+  );
+};
 
-export default Icon
+export default Icon;
