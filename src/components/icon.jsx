@@ -1,10 +1,12 @@
 import React from "react";
 
 const Icon = (props) => {
+  const { href, alt, iconPic } = props;
+
   return (
-    <a href={props.href} target="_blank" aria-label={props.ariaLabel}>
+    <a href={href} target="_blank" aria-label={alt}>
       <i
-        className={props.iconPic}
+        className={iconPic}
         style={{
           color: "#000000",
           margin: "10px 0 10px 20px",

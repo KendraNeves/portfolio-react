@@ -12,25 +12,25 @@ const SideBar = () => {
         height: "400px",
       }}
     >
-      <Icon href="#" ariaLabel="up chevron" iconPic="fas fa-chevron-up" />
+      <Icon href="#" alt="up chevron" iconPic="fas fa-chevron-up" />
       <Icon
         href="https://github.com/KendraNeves"
-        ariaLabel="GitHub icon"
+        alt="GitHub icon"
         iconPic="fab fa-github"
       />
       <Icon
         href="https://www.linkedin.com/in/kendraneves/"
-        ariaLabel="Linked In icon"
+        alt="Linked In icon"
         iconPic="fab fa-linkedin"
       />
       <Icon
         href="https://twitter.com/kendraneves"
-        ariaLabel="Twitter icon"
+        alt="Twitter icon"
         iconPic="fab fa-twitter"
       />
-      <Icon href="#" ariaLabel="Email icon" iconPic="fas fa-envelope" />
-      <Icon href="#" ariaLabel="resume icon" iconPic="far fa-file" />
-      <Icon href="#" ariaLabel="down chevron" iconPic="fas fa-chevron-down" />
+      <Icon href="#" alt="Email icon" iconPic="fas fa-envelope" />
+      <Icon href="#" alt="resume icon" iconPic="far fa-file" />
+      <Icon href="#" alt="down chevron" iconPic="fas fa-chevron-down" />
     </div>
   );
 };

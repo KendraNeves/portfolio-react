@@ -14,7 +14,6 @@ import Footer from './components/footer';
 import ProjectCard from './components/project-card';
 
 
-
 ReactDOM.render(
   <React.StrictMode>
     <div>
