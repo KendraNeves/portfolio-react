@@ -7,11 +7,15 @@ import * as serviceWorker from './serviceWorker';
 import Arrow from './components/arrow';
 import SideBar from './components/sidebar';
 import "../node_modules/@fortawesome/fontawesome-free/css/all.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import NavBar from './components/navbar';
+
 
 
 ReactDOM.render(
   <React.StrictMode>
     <div>
+      <NavBar />
       <div>
         <SideBar />
       </div>
