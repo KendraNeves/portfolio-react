@@ -11,6 +11,7 @@ import Arrow from './components/arrow';
 import SideBar from './components/sidebar';
 import NavBar from './components/navbar';
 import Footer from './components/footer';
+import ProjectCard from './components/project-card';
 
 
 
@@ -22,6 +23,7 @@ ReactDOM.render(
         <SideBar />
       </div>
       <Arrow arrowColor="#dea6af" zIndex="-1" height="580">
+        <ProjectCard />
       </Arrow>
       <Arrow arrowColor="#f3f3f3" zIndex="-2" />
       <Arrow arrowColor="#dea6af" zIndex="-3" />
