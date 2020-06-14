@@ -11,8 +11,9 @@ import Arrow from './components/arrow';
 import SideBar from './components/sidebar';
 import NavBar from './components/navbar';
 import Footer from './components/footer';
-import ProjectCard from './components/project-card';
 import JumbotronPage from './components/jumbotron-page';
+import ProjectSection from './components/project-section';
+import cardList from './project-card-data';
 
 
 ReactDOM.render(
@@ -26,7 +27,11 @@ ReactDOM.render(
       <Arrow arrowColor="#dea6af" zIndex="-1" height="580">
         <JumbotronPage />
       </Arrow>
-      <Arrow arrowColor="#f3f3f3" zIndex="-2"><ProjectCard /></Arrow>
+      <Arrow arrowColor="#f3f3f3" zIndex="-2">
+        <ProjectSection>
+          {cardList}
+        </ProjectSection>
+      </Arrow>
       <Arrow arrowColor="#dea6af" zIndex="-3" />
       <App />
       <Footer />
