@@ -12,6 +12,7 @@ import SideBar from './components/sidebar';
 import NavBar from './components/navbar';
 import Footer from './components/footer';
 import ProjectCard from './components/project-card';
+import JumbotronPage from './components/jumbotron-page';
 
 
 ReactDOM.render(
@@ -21,10 +22,11 @@ ReactDOM.render(
       <div>
         <SideBar />
       </div>
+
       <Arrow arrowColor="#dea6af" zIndex="-1" height="580">
-        <ProjectCard />
+        <JumbotronPage />
       </Arrow>
-      <Arrow arrowColor="#f3f3f3" zIndex="-2" />
+      <Arrow arrowColor="#f3f3f3" zIndex="-2"><ProjectCard /></Arrow>
       <Arrow arrowColor="#dea6af" zIndex="-3" />
       <App />
       <Footer />
