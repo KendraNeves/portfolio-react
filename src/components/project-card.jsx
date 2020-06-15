@@ -16,7 +16,11 @@ const ProjectCard = (props) => {
 
   return (
     <Card style={{ width: "18rem" }}>
-      <Card.Img variant="top" src={projectPic} alt={alt} />
+      <Card.Img
+        variant="top"
+        src={process.env.PUBLIC_URL + projectPic}
+        alt={alt}
+      />
       <Card.Body>
         <Card.Title>{cardTitle}</Card.Title>
         <Card.Text>{description}</Card.Text>

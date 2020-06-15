@@ -12,144 +12,158 @@
 
 export const cardList = [
   {
-    "title": "Nutmeg Concrete",
-    "image": "../assets/nutmeg-concrete.PNG",
-    "imageAlt": "nutmeg concrete website",
-    "link": "https://nutmegconcrete.com/",
-    "info": "This card has supporting text below as a natural lead-in to additional content",
-    "gitHubLink": "",
+    "cardTitle": "Nutmeg Concrete",
+    "projectPic": "./images/projects/nutmeg-concrete.PNG",
+    "alt": "nutmeg concrete website",
+    "deployedUrl": "https://nutmegconcrete.com/",
+    "description": "This card has supporting text below as a natural lead-in to additional content",
+    "techStack": "",
+    "githubUrl": "",
     "datePosted": "Posted December 11, 2019"
   },
 
   {
-    "title": "Password Generator",
-    "image": "../assets/password-generator.PNG",
-    "imageAlt": "password generator website",
-    "link": "https://kneves1.github.io/03-Password-Generator/",
-    "info": "Hello World!",
-    "gitHubLink": "https://github.com/kneves1/03-Password-Generator",
+    "cardTitle": "Password Generator",
+    "projectPic": "./images/projects/password-generator.PNG",
+    "alt": "password generator website",
+    "deployedUrl": "https://kneves1.github.io/03-Password-Generator/",
+    "description": "Hello World!",
+    "techStack": "",
+    "githubUrl": "https://github.com/kneves1/03-Password-Generator",
     "datePosted": "Posted February 14, 2020"
   },
 
   {
-    "title": "Code Quiz",
-    "image": "../assets/code-quiz.PNG",
-    "imageAlt": "code quiz website",
-    "link": "https://kneves1.github.io/04-Code-Quiz/",
-    "info": "Hello World!",
-    "gitHubLink": "https://github.com/kneves1/04-Code-Quiz",
+    "cardTitle": "Code Quiz",
+    "projectPic": "./images/projects/code-quiz.PNG",
+    "alt": "code quiz website",
+    "deployedUrl": "https://kneves1.github.io/04-Code-Quiz/",
+    "description": "Hello World!",
+    "techStack": "",
+    "githubUrl": "https://github.com/kneves1/04-Code-Quiz",
     "datePosted": "Posted February 21, 2020"
   },
 
   {
-    "title": "Work Day Scheduler",
-    "image": "../assets/work-day-scheduler.PNG",
-    "imageAlt": "work day scheduler app",
-    "link": "https://kneves1.github.io/05-Work-Day-Scheduler/",
-    "info": "Hello World!",
-    "gitHubLink": "https://github.com/kneves1/05-Work-Day-Scheduler",
+    "cardTitle": "Work Day Scheduler",
+    "projectPic": "./images/projects/work-day-scheduler.PNG",
+    "alt": "work day scheduler app",
+    "deployedUrl": "https://kneves1.github.io/05-Work-Day-Scheduler/",
+    "description": "Hello World!",
+    "techStack": "",
+    "githubUrl": "https://github.com/kneves1/05-Work-Day-Scheduler",
     "datePosted": "Posted February 29, 2020"
   },
 
   {
-    "title": "Weather Dashboard",
-    "image": "../assets/weather-dashboard.PNG",
-    "imageAlt": "weather dashboard app",
-    "link": "https://kneves1.github.io/06-Weather-Dashboard/",
-    "info": "Hello World!",
-    "gitHubLink": "https://github.com/kneves1/06-Weather-Dashboard",
+    "cardTitle": "Weather Dashboard",
+    "projectPic": "./images/projects/weather-dashboard.PNG",
+    "alt": "weather dashboard app",
+    "deployedUrl": "https://kneves1.github.io/06-Weather-Dashboard/",
+    "description": "Hello World!",
+    "techStack": "",
+    "githubUrl": "https://github.com/kneves1/06-Weather-Dashboard",
     "datePosted": "Posted March 9, 2020"
   },
 
   {
-    "title": "Good Morning App",
-    "image": "../assets/good-morning-app.PNG",
-    "imageAlt": "good morning app",
-    "link": "https://kneves1.github.io/Best-Group-Repo/",
-    "info": "Hello World!",
-    "gitHubLink": "https://github.com/kneves1/Best-Group-Repo",
+    "cardTitle": "Good Morning App",
+    "projectPic": "./images/projects/good-morning-app.PNG",
+    "alt": "good morning app",
+    "deployedUrl": "https://kneves1.github.io/Best-Group-Repo/",
+    "description": "Hello World!",
+    "techStack": "",
+    "githubUrl": "https://github.com/kneves1/Best-Group-Repo",
     "datePosted": "Posted March 11, 2020"
   },
 
   {
-    "title": "README Generator",
-    "image": "../assets/#",
-    "imageAlt": "README generator",
-    "link": "https://github.com/kneves1/09-README-Generator",
-    "info": "Hello World!",
-    "gitHubLink": "https://github.com/kneves1/09-README-Generator",
+    "cardTitle": "README Generator",
+    "projectPic": "./images/projects/work-day-scheduler.PNG",
+    "alt": "README generator",
+    "deployedUrl": "https://github.com/kneves1/09-README-Generator",
+    "description": "Hello World!",
+    "techStack": "",
+    "githubUrl": "https://github.com/kneves1/09-README-Generator",
     "datePosted": "Posted March 29, 2020"
   },
 
   {
-    "title": "Team Profile Generator",
-    "image": "../assets/#",
-    "imageAlt": "team profile generator",
-    "link": "https://github.com/kneves1/10-Team-Profile-Generator",
-    "info": "Hello World!",
-    "gitHubLink": "https://github.com/kneves1/10-Team-Profile-Generator",
+    "cardTitle": "Team Profile Generator",
+    "projectPic": "./images/projects/work-day-scheduler.PNG",
+    "alt": "team profile generator",
+    "deployedUrl": "https://github.com/kneves1/10-Team-Profile-Generator",
+    "description": "Hello World!",
+    "techStack": "",
+    "githubUrl": "https://github.com/kneves1/10-Team-Profile-Generator",
     "datePosted": "Posted April 5, 2020"
   },
 
   {
-    "title": "Note Taking App",
-    "image": "../assets/note-taker2.PNG",
-    "imageAlt": "note taking app",
-    "link": "https://secret-springs-62228.herokuapp.com/notes",
-    "info": "Hello World!",
-    "gitHubLink": "https://github.com/kneves1/Express-Note-Taker",
+    "cardTitle": "Note Taking App",
+    "projectPic": "./images/projects/note-taker2.PNG",
+    "alt": "note taking app",
+    "deployedUrl": "https://secret-springs-62228.herokuapp.com/notes",
+    "description": "Hello World!",
+    "techStack": "",
+    "githubUrl": "https://github.com/kneves1/Express-Note-Taker",
     "datePosted": "Posted April 13, 2020"
   },
 
   {
-    "title": "Employee Tracker",
-    "image": "../assets/#",
-    "imageAlt": "employee tracking app",
-    "link": "https://github.com/kneves1/Employee-Tracker",
-    "info": "Hello World!",
-    "gitHubLink": "https://github.com/kneves1/Employee-Tracker",
+    "cardTitle": "Employee Tracker",
+    "projectPic": "./images/projects/work-day-scheduler.PNG",
+    "alt": "employee tracking app",
+    "deployedUrl": "https://github.com/kneves1/Employee-Tracker",
+    "description": "Hello World!",
+    "techStack": "",
+    "githubUrl": "https://github.com/kneves1/Employee-Tracker",
     "datePosted": "April 20, 2020"
   },
 
   {
-    "title": "Burger App",
-    "image": "../assets/burger-app.PNG",
-    "imageAlt": "burger app",
-    "link": "https://calm-lake-01040.herokuapp.com/",
-    "info": "Hello World!",
-    "gitHubLink": "https://github.com/kneves1/Node-Express-Handlebars",
+    "cardTitle": "Burger App",
+    "projectPic": "./images/projects/burger-app.PNG",
+    "alt": "burger app",
+    "deployedUrl": "https://calm-lake-01040.herokuapp.com/",
+    "description": "Hello World!",
+    "techStack": "",
+    "githubUrl": "https://github.com/kneves1/Node-Express-Handlebars",
     "datePosted": "April 26, 2020"
   },
 
   {
-    "title": "TP Finder",
-    "image": "../assets/tp-finder1.PNG",
-    "imageAlt": "toilet paper finding app",
-    "link": "https://vast-sierra-58831.herokuapp.com/",
-    "info": "Hello World!",
-    "gitHubLink": "https://github.com/kneves1/TP-Finder",
+    "cardTitle": "TP Finder",
+    "projectPic": "./images/projects/tp-finder1.PNG",
+    "alt": "toilet paper finding app",
+    "deployedUrl": "https://vast-sierra-58831.herokuapp.com/",
+    "description": "Hello World!",
+    "techStack": "",
+    "githubUrl": "https://github.com/kneves1/TP-Finder",
     "datePosted": "May 8, 2020"
   },
 
   // {
-  //   "title":"",
-  //   "image": "",
-  //   "imageAlt": "",
-  //   "link": "",
-  //   "info": "",
-  //   "gitHubLink": "",
-  //   "datePosted": ""
-  // },
+  //   "cardTitle":"",
+  //   "projectPic": "",
+  //   "alt": "",
+  //   "deployedUrl": "",
+  //   "description": "",
+  // "techStack": "",//   
+  // "githubUrl": "",
+  // //   "datePosted": ""
+  // // },
 
-  // {
-  //   "title":"",
-  //   "image": "",
-  //   "imageAlt": "",
-  //   "link": "",
-  //   "info": "",
-  //   "gitHubLink": "",
-  //   "datePosted": ""
-  // }
+  // // {
+  // //   "cardTitle":"",
+  // //   "projectPic": "",
+  // //   "imageAlt": "",
+  // //   "deployedUrl": "",
+  // //   "description": "",
+  // "techStack": "",//   
+  // "githubUrl": "",
+  // //   "datePosted": ""
+  // // }
 
 ]
 
