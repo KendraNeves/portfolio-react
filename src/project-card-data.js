@@ -13,7 +13,7 @@
 export const cardList = [
   {
     "cardTitle": "Nutmeg Concrete",
-    "projectPic": "./images/projects/nutmeg-concrete.PNG",
+    "projectPic": "/images/projects/nutmeg-concrete.PNG",
     "alt": "nutmeg concrete website",
     "deployedUrl": "https://nutmegconcrete.com/",
     "description": "This card has supporting text below as a natural lead-in to additional content",
@@ -24,7 +24,7 @@ export const cardList = [
 
   {
     "cardTitle": "Password Generator",
-    "projectPic": "./images/projects/password-generator.PNG",
+    "projectPic": "/images/projects/password-generator.PNG",
     "alt": "password generator website",
     "deployedUrl": "https://kneves1.github.io/03-Password-Generator/",
     "description": "Hello World!",
@@ -35,7 +35,7 @@ export const cardList = [
 
   {
     "cardTitle": "Code Quiz",
-    "projectPic": "./images/projects/code-quiz.PNG",
+    "projectPic": "/images/projects/code-quiz.PNG",
     "alt": "code quiz website",
     "deployedUrl": "https://kneves1.github.io/04-Code-Quiz/",
     "description": "Hello World!",
@@ -46,7 +46,7 @@ export const cardList = [
 
   {
     "cardTitle": "Work Day Scheduler",
-    "projectPic": "./images/projects/work-day-scheduler.PNG",
+    "projectPic": "/images/projects/work-day-scheduler.PNG",
     "alt": "work day scheduler app",
     "deployedUrl": "https://kneves1.github.io/05-Work-Day-Scheduler/",
     "description": "Hello World!",
@@ -57,7 +57,7 @@ export const cardList = [
 
   {
     "cardTitle": "Weather Dashboard",
-    "projectPic": "./images/projects/weather-dashboard.PNG",
+    "projectPic": "/images/projects/weather-dashboard.PNG",
     "alt": "weather dashboard app",
     "deployedUrl": "https://kneves1.github.io/06-Weather-Dashboard/",
     "description": "Hello World!",
@@ -68,7 +68,7 @@ export const cardList = [
 
   {
     "cardTitle": "Good Morning App",
-    "projectPic": "./images/projects/good-morning-app.PNG",
+    "projectPic": "/images/projects/good-morning-app.PNG",
     "alt": "good morning app",
     "deployedUrl": "https://kneves1.github.io/Best-Group-Repo/",
     "description": "Hello World!",
@@ -79,7 +79,7 @@ export const cardList = [
 
   {
     "cardTitle": "README Generator",
-    "projectPic": "./images/projects/work-day-scheduler.PNG",
+    "projectPic": "/images/projects/work-day-scheduler.PNG",
     "alt": "README generator",
     "deployedUrl": "https://github.com/kneves1/09-README-Generator",
     "description": "Hello World!",
@@ -90,7 +90,7 @@ export const cardList = [
 
   {
     "cardTitle": "Team Profile Generator",
-    "projectPic": "./images/projects/work-day-scheduler.PNG",
+    "projectPic": "/images/projects/work-day-scheduler.PNG",
     "alt": "team profile generator",
     "deployedUrl": "https://github.com/kneves1/10-Team-Profile-Generator",
     "description": "Hello World!",
@@ -101,7 +101,7 @@ export const cardList = [
 
   {
     "cardTitle": "Note Taking App",
-    "projectPic": "./images/projects/note-taker2.PNG",
+    "projectPic": "/images/projects/note-taker2.PNG",
     "alt": "note taking app",
     "deployedUrl": "https://secret-springs-62228.herokuapp.com/notes",
     "description": "Hello World!",
@@ -112,7 +112,7 @@ export const cardList = [
 
   {
     "cardTitle": "Employee Tracker",
-    "projectPic": "./images/projects/work-day-scheduler.PNG",
+    "projectPic": "/images/projects/work-day-scheduler.PNG",
     "alt": "employee tracking app",
     "deployedUrl": "https://github.com/kneves1/Employee-Tracker",
     "description": "Hello World!",
@@ -123,7 +123,7 @@ export const cardList = [
 
   {
     "cardTitle": "Burger App",
-    "projectPic": "./images/projects/burger-app.PNG",
+    "projectPic": "/images/projects/burger-app.PNG",
     "alt": "burger app",
     "deployedUrl": "https://calm-lake-01040.herokuapp.com/",
     "description": "Hello World!",
@@ -134,7 +134,7 @@ export const cardList = [
 
   {
     "cardTitle": "TP Finder",
-    "projectPic": "./images/projects/tp-finder1.PNG",
+    "projectPic": "/images/projects/tp-finder1.PNG",
     "alt": "toilet paper finding app",
     "deployedUrl": "https://vast-sierra-58831.herokuapp.com/",
     "description": "Hello World!",

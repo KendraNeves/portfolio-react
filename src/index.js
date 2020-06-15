@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'mdbreact/dist/css/mdb.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import { BrowserRouter } from "react-router-dom"
 
 import Arrow from './components/arrow';
 import SideBar from './components/sidebar';
@@ -28,13 +29,16 @@ ReactDOM.render(
       <Arrow arrowColor="#dea6af" zIndex="-1" height="580">
         <JumbotronPage />
       </Arrow>
-      <Arrow arrowColor="#f3f3f3" zIndex="-2">
+      <Arrow arrowColor="#f3f3f3" zIndex="-2" padTop={true}>
         <ProjectSection>
           {cardList}
         </ProjectSection>
       </Arrow>
-      <Arrow arrowColor="#dea6af" zIndex="-3" />
-      <App />
+      <Arrow arrowColor="#dea6af" zIndex="-3" padTop={true} padBottom={true} />
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
+
       <Footer />
     </div>
   </React.StrictMode >,

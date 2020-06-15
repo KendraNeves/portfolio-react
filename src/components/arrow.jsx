@@ -1,5 +1,4 @@
-import React from "react"
-import ColorBlock from "./pink-block"
+import React from "react";
 
 /*
 Example usage (like in index.js right now):
@@ -7,43 +6,59 @@ Example usage (like in index.js right now):
   your content here
 </Arrow>
 */
-const Arrow = props => {
+const Arrow = (props) => {
+  let useHeight = props.height ? Number(props.height) : 675;
+  let topPad = props.padTop ? 100 : 0;
+  let bottomPad = props.padBottom ? 75 : 0;
+
   return (
     <React.Fragment>
       {/* This div is the full arrow */}
       <div
         style={{
-          zIndex: props.zIndex || -1,
           position: "relative",
-          height: props.height || 675,
-          marginBottom: -1 * props.height || -675,
+          minHeight: useHeight,
+          marginBottom: bottomPad,
         }}
       >
-        <ColorBlock
-          blockColor={props.arrowColor}
-          height={props.height ? props.height - 75 : 600}
-        />
-        <svg
-          preserveAspectRatio="none"
-          viewBox="0 0 100 102"
-          version="1.1"
-          style={{ width: `100%`, height: 75, position: "relative", top: -1 }}
-          xmlns="http://www.w3.org/2000/svg"
+        {props.padTop && <div style={{ height: topPad }} />}
+        <div
+          style={{
+            position: "relative",
+            top: 0,
+            minHeight: useHeight - (75 + topPad),
+            width: "100%",
+            zIndex: 1,
+          }}
         >
-          <path d="M0 0 L50 100 L100 0 Z" fill={props.arrowColor}></path>
-        </svg>
-      </div>
-
-      {/* This div is the content that gets overlaid on the arrow. Notice it wraps props.children . */}
-      <div
-        style={{
-          height: props.height ? props.height - 75 : 600,
-        }}
-      >
-        {props.children}
+          {props.children}
+        </div>
+        <div
+          minHeight={useHeight}
+          style={{
+            height: "100%",
+            width: "100%",
+            position: "absolute",
+            top: 0,
+            left: 0,
+            zIndex: props.zIndex || -1,
+            backgroundColor: props.arrowColor,
+          }}
+        >
+          <div style={{ height: "100%" }} />
+          <svg
+            preserveAspectRatio="none"
+            viewBox="0 0 100 102"
+            version="1.1"
+            style={{ width: `100%`, height: 75, position: "relative", top: -1 }}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path d="M0 0 L50 100 L100 0 Z" fill={props.arrowColor}></path>
+          </svg>
+        </div>
       </div>
     </React.Fragment>
-  )
-}
+  );
+};
 
-export default Arrow
+export default Arrow;
