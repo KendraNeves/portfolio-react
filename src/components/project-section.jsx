@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./project-card";
+import Title from "./title";
 
 class ProjectSection extends Component {
   state = {};
@@ -11,7 +12,7 @@ class ProjectSection extends Component {
 
     for (let i = 0; i < cards.length; i++) {
       trio.push(
-        <Col xs={12} md={true} className="text-center">
+        <Col xs={12} md={6} lg={true} className="text-center">
           <ProjectCard {...cards[i]} />
         </Col>
       );
@@ -30,7 +31,9 @@ class ProjectSection extends Component {
     return (
       <Container>
         <Row>
-          <Col xs={12}>Projects</Col>
+          <Col xs={12}>
+            <Title title={"Project"} />
+          </Col>
         </Row>
         {this.renderCards(this.props.children)}
       </Container>
