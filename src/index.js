@@ -15,6 +15,8 @@ import Footer from './components/footer';
 import JumbotronPage from './components/jumbotron-page';
 import ProjectSection from './components/project-section';
 import cardList from './project-card-data';
+import AboutMe from './components/about-me-section';
+import SkillsSection from './components/skills-section';
 
 
 
@@ -26,15 +28,20 @@ ReactDOM.render(
         <SideBar />
       </div>
 
-      <Arrow arrowColor="#dea6af" zIndex="-1" height="580">
+      <Arrow arrowColor="#dea6af" zIndex="-1" height="620">
         <JumbotronPage />
       </Arrow>
-      <Arrow arrowColor="#f3f3f3" zIndex="-2" padTop={true}>
+      <Arrow arrowColor="#e6dbc9" zIndex="-2" padTop={true} height="300">
+        <AboutMe />
+      </Arrow>
+      <Arrow arrowColor="#dea6af" zIndex="-3" padTop={true} >
         <ProjectSection>
           {cardList}
         </ProjectSection>
       </Arrow>
-      <Arrow arrowColor="#dea6af" zIndex="-3" padTop={true} padBottom={true} />
+      <Arrow arrowColor="#e6dbc9" zIndex="-4" padTop={true}>
+        <SkillsSection />
+      </Arrow>
       <BrowserRouter>
         <App />
       </BrowserRouter>

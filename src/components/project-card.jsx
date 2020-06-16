@@ -15,13 +15,14 @@ const ProjectCard = (props) => {
   } = props;
 
   return (
-    <Card style={{ width: "18rem" }}>
+    <Card style={{ margin: "20px 10px 20px 10px" }}>
       <Card.Img
         variant="top"
         src={process.env.PUBLIC_URL + projectPic}
         alt={alt}
+        style={{}}
       />
-      <Card.Body>
+      <Card.Body style={{ height: "225px" }}>
         <Card.Title>{cardTitle}</Card.Title>
         <Card.Text>{description}</Card.Text>
         <Card.Text>{techStack}</Card.Text>
