@@ -9,7 +9,7 @@ const Icon = (props) => {
       <i
         className={iconPic}
         style={{
-          color: "#000000",
+          color: "#ffffff",
           margin: "10px 0 10px 20px",
           fontSize: "25px",
         }}

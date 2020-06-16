@@ -28,18 +28,18 @@ ReactDOM.render(
         <SideBar />
       </div>
 
-      <Arrow arrowColor="#dea6af" zIndex="-1" height="580">
+      <Arrow arrowColor="#dea6af" zIndex="-1" height="620">
         <JumbotronPage />
       </Arrow>
-      <Arrow arrowColor="#f3f3f3" zIndex="-2" padTop={true}>
+      <Arrow arrowColor="#e6dbc9" zIndex="-2" padTop={true} height="300">
         <AboutMe />
       </Arrow>
-      <Arrow arrowColor="#dea6af" zIndex="-3" padTop={true} padBottom={true}>
+      <Arrow arrowColor="#dea6af" zIndex="-3" padTop={true} >
         <ProjectSection>
           {cardList}
         </ProjectSection>
       </Arrow>
-      <Arrow arrowColor="#f3f3f3" zIndex="-2" padTop={true}>
+      <Arrow arrowColor="#e6dbc9" zIndex="-4" padTop={true}>
         <SkillsSection />
       </Arrow>
       <BrowserRouter>
