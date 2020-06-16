@@ -10,6 +10,7 @@ const SideBar = () => {
         bottom: "100px",
         width: "40px",
         height: "400px",
+        marginLeft: "30px",
       }}
     >
       <Icon href="#" alt="up chevron" iconPic="fas fa-chevron-up" />
