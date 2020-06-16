@@ -32,7 +32,7 @@ class ProjectSection extends Component {
       <Container>
         <Row>
           <Col xs={12}>
-            <Title title={"Project"} />
+            <Title title={"Projects"} />
           </Col>
         </Row>
         {this.renderCards(this.props.children)}
