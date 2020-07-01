@@ -7,7 +7,7 @@ class SkillsSection extends Component {
   state = {};
   render() {
     return (
-      <Container fluid>
+      <Container id="skills" fluid>
         <Title title={"Skills"} />
         <Row noGutters>
           <Col className="text-center mx-5">

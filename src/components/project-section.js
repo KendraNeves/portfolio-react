@@ -29,7 +29,7 @@ class ProjectSection extends Component {
 
   render() {
     return (
-      <Container>
+      <Container id="projects">
         <Row>
           <Col xs={12}>
             <Title title={"Projects"} />

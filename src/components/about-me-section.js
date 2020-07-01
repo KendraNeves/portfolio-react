@@ -6,8 +6,8 @@ class AboutMe extends Component {
   state = {};
   render() {
     return (
-      <Container fluid>
-        <Title title={"About Me"} />
+      <Container id="about-me" fluid>
+        <Title title={"About Me"} id="about-me" />
         <Row>
           <Col lg={1}></Col>
           <Col md={12} lg={3}>
