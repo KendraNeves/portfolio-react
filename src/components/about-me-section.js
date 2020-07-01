@@ -7,7 +7,7 @@ class AboutMe extends Component {
   render() {
     return (
       <Container id="about-me" fluid>
-        <Title title={"About Me"} id="about-me" />
+        <Title title={"About Me"} />
         <Row>
           <Col lg={1}></Col>
           <Col md={12} lg={3}>
