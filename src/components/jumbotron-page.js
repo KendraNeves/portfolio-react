@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 
 const JumbotronPage = () => {
   return (
-    <Container fluid>
+    <Container id="top" fluid>
       <Row>
         <div style={{ height: 200 }}></div>
       </Row>

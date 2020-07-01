@@ -1,6 +1,7 @@
 import React from "react";
 import Icon from "./icon";
 import ContactMeIcon from "./icons-contact-me";
+import { Link } from "react-scroll"
 import "./sidebar.css"
 
 const SideBar = () => {
@@ -16,10 +17,27 @@ const SideBar = () => {
       }}
       className="sidebar"
     >
-      <Icon href="#" alt="up chevron" iconPic="fas fa-chevron-up" />
-
+      <Link
+        activeClass="active"
+        to="top"
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={1500}
+      >
+        <Icon alt="up chevron" iconPic="fas fa-chevron-up" />
+      </Link>
       <ContactMeIcon />
-      <Icon href="#" alt="down chevron" iconPic="fas fa-chevron-down" />
+      <Link
+        activeClass="active"
+        to="bottom"
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={1500}
+      >
+        <Icon href="#" alt="down chevron" iconPic="fas fa-chevron-down" />
+      </Link>
     </div>
   );
 };
