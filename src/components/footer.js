@@ -11,7 +11,7 @@ const Footer = () => {
       className="font-small pt-4 mt-4"
       id="bottom"
     >
-      <MDBContainer id="contact" fluid className="text-center text-md-left">
+      <MDBContainer fluid className="text-center text-md-left">
         <MDBRow>
           <MDBCol md={3}></MDBCol>
           <MDBCol md={6} className="text-center">
