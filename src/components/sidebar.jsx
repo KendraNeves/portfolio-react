@@ -1,5 +1,6 @@
 import React from "react";
 import Icon from "./icon";
+import ContactMeIcon from "./icons-contact-me";
 
 const SideBar = () => {
   return (
@@ -14,23 +15,8 @@ const SideBar = () => {
       }}
     >
       <Icon href="#" alt="up chevron" iconPic="fas fa-chevron-up" />
-      <Icon
-        href="https://github.com/KendraNeves"
-        alt="GitHub icon"
-        iconPic="fab fa-github"
-      />
-      <Icon
-        href="https://www.linkedin.com/in/kendraneves/"
-        alt="Linked In icon"
-        iconPic="fab fa-linkedin"
-      />
-      <Icon
-        href="https://twitter.com/kendraneves"
-        alt="Twitter icon"
-        iconPic="fab fa-twitter"
-      />
-      <Icon href="#" alt="Email icon" iconPic="fas fa-envelope" />
-      <Icon href="#" alt="resume icon" iconPic="far fa-file" />
+
+      <ContactMeIcon />
       <Icon href="#" alt="down chevron" iconPic="fas fa-chevron-down" />
     </div>
   );

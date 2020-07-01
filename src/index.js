@@ -9,9 +9,9 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter } from "react-router-dom"
 
+
 import Arrow from './components/arrow';
 import SideBar from './components/sidebar';
-import NavBar from './components/navbar';
 import Footer from './components/footer';
 import JumbotronPage from './components/jumbotron-page';
 import ProjectSection from './components/project-section';
@@ -24,11 +24,7 @@ import SkillsSection from './components/skills-section';
 ReactDOM.render(
   <React.StrictMode>
     <div>
-      <NavBar />
-      <div>
-        <SideBar />
-      </div>
-
+      <SideBar />
       <Arrow arrowColor="#dea6af" zIndex="-1" height="620">
         <JumbotronPage />
       </Arrow>
