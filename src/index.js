@@ -18,6 +18,7 @@ import ProjectSection from './components/project-section';
 import cardList from './project-card-data';
 import AboutMe from './components/about-me-section';
 import SkillsSection from './components/skills-section';
+import NavBar from './components/navbar';
 
 
 
@@ -26,6 +27,7 @@ ReactDOM.render(
     <div>
       <SideBar />
       <Arrow arrowColor="#dea6af" zIndex="-1" height="620">
+        <NavBar />
         <JumbotronPage />
       </Arrow>
       <Arrow arrowColor="#e6dbc9" zIndex="-2" padTop={true} height="300">
