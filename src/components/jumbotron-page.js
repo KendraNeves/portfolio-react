@@ -1,11 +1,12 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import "./jumbotron-page.css"
 
 const JumbotronPage = () => {
   return (
     <Container id="top" fluid>
       <Row>
-        <div style={{ height: 200 }}></div>
+        <div style={{ height: 100 }}></div>
       </Row>
       <Row className="text-center">
         <Col lg={2}></Col>
@@ -35,7 +36,17 @@ const JumbotronPage = () => {
       </Row>
       <Row className="text-center">
         <Col lg={2}></Col>
-        <Col lg={8}>{"Web Developer"}</Col>
+        <Col lg={8}>
+          <p class="rotatingText">
+            I'm a &hellip;
+            <span class="rotatingText-adjective">Software Engineer</span>
+            <span class="rotatingText-adjective">Dog mom</span>
+            <span class="rotatingText-adjective">Nutella Addict</span>
+            <span class="rotatingText-adjective">perfect</span>
+            <span class="rotatingText-adjective">perfect</span>
+
+          </p>
+        </Col>
         <Col lg={2}></Col>
       </Row>
     </Container>
