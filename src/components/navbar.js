@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar, Nav, Container, Row } from "react-bootstrap";
+import { Navbar, Nav, Container, Row, Image } from "react-bootstrap";
 import { Link } from "react-scroll"
 
 
@@ -8,7 +8,7 @@ const NavBar = () => {
     <Container fluid>
       <Row>
         <Navbar expand="lg" style={{ width: "100vw", boxShadow: "none", padding: "30px 30px 0 30px" }} variant="dark">
-          <Navbar.Brand href="#home" className="p-2"> Kendra Neves</Navbar.Brand>
+          <Navbar.Brand href="#home" className="p-2" style={{ fontFamily: "Leckerli One", fontSize: "1.75rem" }}> Kendra Neves</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
