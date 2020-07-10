@@ -6,15 +6,16 @@ const JumbotronPage = () => {
   return (
     <Container id="top" fluid>
       <Row>
-        <div style={{ height: 100 }}></div>
+        <div style={{ height: 75 }}></div>
       </Row>
       <Row>
         <Col
           className="text-center"
           style={{
-            fontSize: "8rem",
+            fontSize: "7rem",
             color: "#ffffff",
             fontFamily: "Trocchi",
+
 
             // "Comfortaa', cursive",
             /* font-family: "Alice", serif; */
@@ -30,23 +31,26 @@ const JumbotronPage = () => {
           }}
         >
           {"Kendra Neves"}
+          <Row><Col className="text-center pb-5 mb-2" style={{
+            fontSize: "1.5rem",
+            lineHeight: "1rem",
+            fontFamily: "Roboto"
+          }}> Software Engineer</Col></Row>
+
         </Col>
+
       </Row>
-      <Row><Col className="text-center">Software Engineer</Col></Row>
       <Row className="text-center">
-        <Col lg={2}></Col>
-        <Col lg={8}>
-          <p class="rotatingText">
+        <Col>
+          <p class="rotatingText text-center">
             I'm a &hellip;
             <span class="rotatingText-adjective">Software Engineer</span>
             <span class="rotatingText-adjective">Dog mom</span>
             <span class="rotatingText-adjective">Nutella Addict</span>
             <span class="rotatingText-adjective">perfect</span>
             <span class="rotatingText-adjective">perfect</span>
-
           </p>
         </Col>
-        <Col lg={2}></Col>
       </Row>
     </Container>
   );
