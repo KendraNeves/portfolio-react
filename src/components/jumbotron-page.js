@@ -8,10 +8,9 @@ const JumbotronPage = () => {
       <Row>
         <div style={{ height: 100 }}></div>
       </Row>
-      <Row className="text-center">
-        <Col lg={2}></Col>
+      <Row>
         <Col
-          lg={8}
+          className="text-center"
           style={{
             fontSize: "8rem",
             color: "#ffffff",
@@ -32,8 +31,8 @@ const JumbotronPage = () => {
         >
           {"Kendra Neves"}
         </Col>
-        <Col lg={2}></Col>
       </Row>
+      <Row><Col className="text-center">Software Engineer</Col></Row>
       <Row className="text-center">
         <Col lg={2}></Col>
         <Col lg={8}>
