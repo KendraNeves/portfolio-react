@@ -14,20 +14,17 @@ const JumbotronPage = () => {
           style={{
             fontSize: "7rem",
             color: "#ffffff",
-            fontFamily: "Trocchi",
 
 
-            // "Comfortaa', cursive",
-            /* font-family: "Alice", serif; */
-            /* font-family: "Averia Serif Libre", cursive; */
-            /* font-family: "Be Vietnam", sans-serif; */
+            fontFamily: "Alice"
+            // "Alice",
+            // /* fontFamily: "Averia Serif Libre", cursive; */
+            /* fontFamily: "Be Vietnam", sans-serif; */
             // =======Favorite=============
-            /* font-family: 'Overlock', cursive; */
+            /* fontFamily: 'Overlock', cursive; */
             // =================================
-            /* font-family: 'Sarabun', sans-serif; */
-            /* font-family: 'Scada', sans-serif; */
-            /* font-family: 'Secular One', sans-serif; */
-            /* font-family: 'Trocchi', serif; */
+            /* fontFamily: 'Secular One', sans-serif; */
+            /* fontFamily: 'Trocchi', serif; */
           }}
         >
           {"Kendra Neves"}

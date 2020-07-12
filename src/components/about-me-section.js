@@ -13,8 +13,7 @@ class AboutMe extends Component {
           <Col md={12} lg={3}>
             <Image
               src={
-                process.env.PUBLIC_URL + "/images/saf-cherry-blossoms-frame.png"
-              }
+                process.env.PUBLIC_URL + "/images/saf-cherry-blossoms-frame.png"}
               rounded
               fluid
             />
@@ -33,3 +32,4 @@ class AboutMe extends Component {
 }
 
 export default AboutMe;
+
