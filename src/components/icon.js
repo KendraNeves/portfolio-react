@@ -8,14 +8,14 @@ const Icon = (props) => {
   return (
     <motion.div
       whileHover={{ scale: 1.2, transition: { duration: 0 }, }}
-      whileTap={{ scale: 0.9 }}>
+      whileTap={{ scale: 0.9 }} style={{ display: "inline-block" }}>
       <a href={href} target="_blank" aria-label={alt}>
         <i
           className={iconPic}
           style={{
             color: props.color || "#ffffff",
             margin: props.margin || "10px 10px 10px 10px",
-            fontSize: props.iconSize || "25px",
+            fontSize: props.iconSize || "27px",
           }}
         ></i>
       </a>
