@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "./jumbotron-page.css"
+import { motion } from 'framer-motion';
 
 const JumbotronPage = () => {
   return (
@@ -27,13 +28,16 @@ const JumbotronPage = () => {
             /* fontFamily: 'Trocchi', serif; */
           }}
         >
-          {"Kendra Neves"}
-          <Row><Col className="text-center pb-5 mb-2" style={{
-            fontSize: "1.5rem",
-            lineHeight: "1rem",
-            fontFamily: "Roboto"
-          }}> Software Engineer</Col></Row>
-
+          {/* Fade in of jumbotron name */}
+          <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 2.5 }} >{"Kendra Neves"}</motion.div>
+          <Row>
+            <Col className="text-center pb-5 mb-2" style={{
+              fontSize: "1.5rem",
+              lineHeight: "1rem",
+              fontFamily: "Roboto"
+            }}> Software Engineer
+            </Col>
+          </Row>
         </Col>
 
       </Row>

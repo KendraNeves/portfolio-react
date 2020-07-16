@@ -20,9 +20,9 @@ const ProjectCard = (props) => {
         variant="top"
         src={process.env.PUBLIC_URL + projectPic}
         alt={alt}
-        style={{}}
+        style={{ position: "relative" }}
       />
-      <Card.Body style={{ height: "225px" }}>
+      <Card.Body style={{ height: "225px", zIndex: +1, position: "relative", bottom: 225, margin: 0 }}>
         <Card.Title>{cardTitle}</Card.Title>
         <Card.Text>{description}</Card.Text>
         <Card.Text>{techStack}</Card.Text>

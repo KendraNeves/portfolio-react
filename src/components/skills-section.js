@@ -58,7 +58,6 @@ class SkillsSection extends Component {
             <SkillIcon iconPic="fab" name="Express" fontSize="22px" />
             <SkillIcon iconPic="fab" name="Handlebars" fontSize="22px" />
             <SkillIcon iconPic="fab" name="React Router" fontSize="22px" />
-            <SkillIcon iconPic="fab" name="ES6" fontSize="22px" />
             <SkillIcon iconPic="fab" name="Redux" fontSize="22px" />
           </Col>
         </Row>
