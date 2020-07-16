@@ -1,8 +1,9 @@
 import React from "react";
-import { MDBCol, MDBContainer, MDBRow, MDBFooter, Row } from "mdbreact";
+import { MDBFooter } from "mdbreact";
 import Icon from "./icon";
 import Title from "./title";
 import ContactMeIcon from "./icons-contact-me";
+import { Container, Row, Col } from 'react-bootstrap';
 
 const Footer = () => {
   return (
@@ -11,28 +12,28 @@ const Footer = () => {
       className="font-small pt-4 mt-4"
       id="bottom"
     >
-      <MDBContainer fluid className="text-center text-md-left">
-        <MDBRow>
-          <MDBCol md={3}></MDBCol>
-          <MDBCol md={6} className="text-center">
+      <Container fluid className="text-center text-md-left">
+        <Row>
+          <Col md={3}></Col>
+          <Col md={6} className="text-center">
             <Title title={"Contact Me"} />
-          </MDBCol>
-          <MDBCol md={3}></MDBCol>
-        </MDBRow>
-        <MDBRow>
-          <MDBCol md={3}></MDBCol>
-          <MDBCol md={6} className="text-center">
+          </Col>
+          <Col md={3}></Col>
+        </Row>
+        <Row>
+          <Col md={3}></Col>
+          <Col md={6} className="text-center">
             <ContactMeIcon />
-          </MDBCol>
-          <MDBCol md={3}></MDBCol>
-        </MDBRow>
-      </MDBContainer>
+          </Col>
+          <Col md={3}></Col>
+        </Row>
+      </Container>
       <div className="footer-copyright py-3">
         <Row>
-          <MDBContainer fluid>
+          <Container fluid>
             &copy; {new Date().getFullYear()} Copyright Kendra Neves
-          </MDBContainer>
-          <MDBContainer fluid>
+          </Container>
+          <Container fluid>
             Built with:{" "}
             <Icon
               href="https://github.com/KendraNeves/portfolio-react"
@@ -49,7 +50,7 @@ const Footer = () => {
               alt="Font Awesome Icon"
               iconPic="fab fa-font-awesome-flag"
             />
-          </MDBContainer>
+          </Container>
         </Row>
       </div>
     </MDBFooter>
