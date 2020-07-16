@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <MDBFooter
       style={{ backgroundColor: "#dea6af" }}
-      className="font-small pt-4 mt-4"
+      className="font-small pt-4"
       id="bottom"
     >
       <Container fluid className="text-center text-md-left">
