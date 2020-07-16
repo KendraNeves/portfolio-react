@@ -41,7 +41,7 @@ const JumbotronPage = () => {
         </Col>
 
       </Row>
-      <Row className="text-center">
+      {/* <Row className="text-center">
         <Col>
           <p class="rotatingText text-center">
             I'm a &hellip;
@@ -52,7 +52,7 @@ const JumbotronPage = () => {
             <span class="rotatingText-adjective">perfect</span>
           </p>
         </Col>
-      </Row>
+      </Row> */}
     </Container>
   );
 };
