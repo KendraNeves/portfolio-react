@@ -6,7 +6,7 @@ const Icon = (props) => {
   const { href, alt, iconPic, color, margin, iconSize } = props;
 
   return (
-    // icons increase size when hovered over
+    // animation- icons increase size when hovered over
     <motion.div
       whileHover={{ scale: 1.2, transition: { duration: 0 }, }}
       whileTap={{ scale: 0.9 }} style={{ display: "inline-block" }}>

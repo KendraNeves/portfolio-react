@@ -3,7 +3,7 @@ import Icon from "./icon";
 
 const ContactMeIcon = (props) => {
   return (
-    <div iconSize={props.style} style={props.style} className="text-center">
+    <div style={props.style} className="text-center">
       <Icon
         href="https://github.com/KendraNeves"
         alt="GitHub icon"

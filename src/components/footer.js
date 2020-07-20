@@ -5,6 +5,7 @@ import Title from "./title";
 import ContactMeIcon from "./icons-contact-me";
 import { Container, Row, Col } from 'react-bootstrap';
 import SkillIcon from './icons-skills';
+import { motion } from 'framer-motion';
 
 const Footer = () => {
   return (
@@ -24,6 +25,7 @@ const Footer = () => {
         <Row>
           <Col md={3}></Col>
           <Col md={6} className="text-center">
+            {/* // animation- icons increase size when hovered over */}
             <Icon
               href="https://github.com/KendraNeves"
               alt="GitHub icon"

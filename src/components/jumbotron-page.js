@@ -35,7 +35,7 @@ const JumbotronPage = () => {
               fontSize: "1.5rem",
               lineHeight: "1rem",
               fontFamily: "Roboto"
-            }}> Software Engineer
+            }}> Software Engineer  -  Front-end
             </Col>
           </Row>
         </Col>
