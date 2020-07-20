@@ -29,7 +29,7 @@ const ProjectCard = (props) => {
         <Card.Text>{description}</Card.Text>
         <Card.Text style={{ fontSize: "17px" }}>{"Stack: "}<Card.Text>{techStack}</Card.Text></Card.Text>
       </Card.Body >
-      <Card.Footer>
+      <Card.Footer style={{ backgroundColor: "#e6dbc9" }}>
         <Icon
           href={githubUrl}
           alt="link to github repo"

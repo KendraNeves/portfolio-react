@@ -62,7 +62,7 @@ export const cardList = [
     "projectPic": "/images/projects/weather-dashboard.PNG",
     "alt": "weather dashboard app",
     "deployedUrl": "https://kendraneves.github.io/Weather-Dashboard/",
-    "description": "Hello World!",
+    "description": "App that retrieves weather and UV index data from OpenWeather API for any city the user searches for. The app features a five day weather forecast and saves the user's city input to local storage.",
     "techStack": "Javascript, AJAX calls, Bootstrap, jQuery, Moment.js, HTML, CSS",
     "githubUrl": "https://github.com/KendraNeves/Weather-Dashboard",
   },
