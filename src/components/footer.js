@@ -4,6 +4,7 @@ import Icon from "./icon";
 import Title from "./title";
 import ContactMeIcon from "./icons-contact-me";
 import { Container, Row, Col } from 'react-bootstrap';
+import SkillIcon from './icons-skills';
 
 const Footer = () => {
   return (
@@ -41,22 +42,31 @@ const Footer = () => {
           </Col>
           <Col md={3}></Col>
         </Row>
-        <Row className="mt-5">
-          <Col md={1}></Col>
-          <Col className="text-center"><Icon href="#" alt="Email icon" iconPic="fas fa-envelope" /><p></p></Col>
-          <Col className="text-center" style={{ borderLeft: "1px solid #e6dbc9", borderRight: "1px solid #e6dbc9" }}><Icon href="#" alt="resume icon" iconPic="far fa-file" /></Col>
-          <Col className="text-center">
-            <Icon href="tel:2039485436" alt="phone icon" iconPic="fas fa-mobile-alt" />
-          </Col>
-          <Col md={1}></Col>
-        </Row>
-        <Row className="mb-5">
-          <Col md={1}></Col>
-          <Col className="text-center col-sm-12">{"kendraneves@gmail.com"}</Col>
-          <Col className="text-center col-sm-12">{"Resume"}</Col>
-          <Col className="text-center col-sm-12">{"(203)948-5436"}</Col>
-          <Col md={1}></Col>
-        </Row>
+        {/* ========================================================================== */}
+        <Container fluid>
+          <Row noGutters>
+            <Col md={4} className="text-center">
+              <SkillIcon name="kendraneves@gmail.com" href="#" alt="Email icon" iconPic="fas fa-envelope" color="000" iconSize="35px" marginTop="15px" />
+            </Col>
+            <Col md={4} className="text-center">
+              <SkillIcon name="Resume" href="#" alt="resume icon" iconPic="far fa-file" color="000" iconSize="35px" marginTop="15px" />
+            </Col>
+            <Col md={4} className="text-center">
+              <SkillIcon
+                name="(203) 948-5436"
+                href="tel:2039485436"
+                alt="phone icon"
+                iconPic="fas fa-mobile-alt"
+                color="#fff"
+                iconSize="35px"
+                marginTop="15px"
+              />
+            </Col>
+
+          </Row>
+
+        </Container>
+        {/* =================================================================== */}
       </Container>
       <div className="footer-copyright py-3">
         <Row>
@@ -83,7 +93,7 @@ const Footer = () => {
           </Container>
         </Row>
       </div>
-    </MDBFooter>
+    </MDBFooter >
   );
 };
 
