@@ -44,12 +44,12 @@ const Footer = () => {
         </Row>
         {/* ========================================================================== */}
         <Container fluid>
-          <Row noGutters>
+          <Row noGutters style={{ marginBottom: "15px" }}>
             <Col md={4} className="text-center">
-              <SkillIcon name="kendraneves@gmail.com" href="#" alt="Email icon" iconPic="fas fa-envelope" color="000" iconSize="35px" marginTop="15px" />
+              <SkillIcon name="KendraNeves@gmail.com" href="mailto:kendraneves@gmail.com" alt="Email icon" iconPic="fas fa-envelope" color="000" iconSize="35px" marginTop="15px" fontSize="20px" />
             </Col>
             <Col md={4} className="text-center">
-              <SkillIcon name="Resume" href="#" alt="resume icon" iconPic="far fa-file" color="000" iconSize="35px" marginTop="15px" />
+              <SkillIcon name="Resume" href="#" alt="resume icon" iconPic="far fa-file" color="000" iconSize="35px" marginTop="15px" fontSize="20px" />
             </Col>
             <Col md={4} className="text-center">
               <SkillIcon
@@ -60,6 +60,7 @@ const Footer = () => {
                 color="#fff"
                 iconSize="35px"
                 marginTop="15px"
+                fontSize="20px"
               />
             </Col>
 

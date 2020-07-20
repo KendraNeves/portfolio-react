@@ -16,7 +16,7 @@ const SkillIcon = (props) => {
           fontSize: iconSize || "70px",
         }}
       >
-        <p style={{ fontSize: fontSize || "20px", marginTop: marginTop || "0px" }}>{name}</p>
+        <p style={{ fontSize: fontSize || "20px", marginTop: marginTop || "0px", fontFamily: "Roboto" }}>{name}</p>
       </i>
     </Container>
   );
