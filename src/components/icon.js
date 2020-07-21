@@ -3,10 +3,10 @@ import "../index.css";
 import { motion } from "framer-motion"
 
 const Icon = (props) => {
-  const { href, alt, iconPic } = props;
+  const { href, alt, iconPic, color, margin, iconSize } = props;
 
   return (
-    // icons increase size when hovered over
+    // animation-icons increase size when hovered over
     <motion.div
       whileHover={{ scale: 1.2, transition: { duration: 0 }, }}
       whileTap={{ scale: 0.9 }} style={{ display: "inline-block" }}>
@@ -14,9 +14,9 @@ const Icon = (props) => {
         <i
           className={iconPic}
           style={{
-            color: props.color || "#ffffff",
-            margin: props.margin || "10px 10px 10px 10px",
-            fontSize: props.iconSize || "27px",
+            color: color || "#ffffff",
+            margin: margin || "10px 10px 10px 10px",
+            fontSize: iconSize || "27px",
           }}
         ></i>
       </a>

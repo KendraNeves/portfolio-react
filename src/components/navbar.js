@@ -11,7 +11,7 @@ const NavBar = () => {
           <Navbar.Brand href="#home" className="p-2" style={{ fontFamily: "Leckerli One", fontSize: "1.75rem" }}> Kendra Neves</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="mr-auto">
+            <Nav className="mr-auto" style={{ fontSize: "1.4rem" }}>
               <Link
                 activeClass="active"
                 to="about-me"

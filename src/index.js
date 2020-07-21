@@ -21,7 +21,7 @@ import NavBar from "./components/navbar";
 import { motion } from "framer-motion";
 
 ReactDOM.render(
-  <motion.div>
+  <motion.div style={{ position: "relative", zIndex: "0" }}>
     <SideBar />
     <Arrow arrowColor="#dea6af" zIndex="-1" height="620">
       <NavBar />
@@ -37,7 +37,7 @@ ReactDOM.render(
       <SkillsSection />
     </Arrow>
 
-    <div
+    <motion.div
       style={{
         zIndex: "-5",
         paddingTop: 75,
@@ -46,7 +46,7 @@ ReactDOM.render(
       }}
     >
       <Footer />
-    </div>
+    </motion.div>
   </motion.div>,
   document.getElementById("root")
 );
