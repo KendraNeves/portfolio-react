@@ -19,8 +19,8 @@ const ContactMeIcon = (props) => {
         alt="Twitter icon"
         iconPic="fab fa-twitter"
       />
-      <Icon href="#" alt="Email icon" iconPic="fas fa-envelope" />
-      <Icon href="#" alt="resume icon" iconPic="far fa-file" />
+      <Icon href="mailto:kendraneves@gmail.com" alt="Email icon" iconPic="fas fa-envelope" />
+      <Icon href="Resume.pdf" alt="resume icon" iconPic="far fa-file" />
     </div>
   );
 };
