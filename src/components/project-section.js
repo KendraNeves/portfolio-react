@@ -29,17 +29,14 @@ class ProjectSection extends Component {
 
   render() {
     return (
-      <div className="mx-3 px-5">
-        <Container id="projects" className="px-5" fluid>
-          <Row>
-            <Col xs={12}>
-              <Title title={"Projects"} />
-            </Col>
-          </Row>
-          {this.renderCards(this.props.children)}
-        </Container>
-      </div>
-
+      <Container id="projects" className="px-5" fluid>
+        <Row>
+          <Col xs={12} md={4} className="text-center">
+            <Title title={"Projects"} />
+          </Col>
+        </Row>
+        {this.renderCards(this.props.children)}
+      </Container>
     );
   }
 }
